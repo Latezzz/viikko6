@@ -17,7 +17,7 @@ public class Vehicle {
     public void printStats() {
         System.out.println(type + ": " + manufacturer + " " +model);
         engine.printStats();
-        System.out.println("Huippunopeus: " + maxSpeed);
+        System.out.println("Huippunopeus: " + maxSpeed + "km/h");
         System.out.println("");
     }
 
